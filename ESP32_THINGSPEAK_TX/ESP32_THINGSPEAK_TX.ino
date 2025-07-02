@@ -10,7 +10,7 @@ const char* ssid = "YOUR_SSID";
 const char* password = "YOUR_PASSWORD";
 
 // ThingSpeak details
-const char* read_api = "YOUR_API_KEY"; // (eg: KFXY0T9XExxxxxxx)
+const char* write_api = "YOUR_API_KEY"; // (eg: KFXY0T9XExxxxxxx)
 unsigned long ch_no = 9999999; // numeric (eg: 299xxxx)
 
 // GPIO pins
