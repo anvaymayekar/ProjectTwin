@@ -2,7 +2,7 @@
 <br>
 
 A complete dual-node ESP32-based Internet of Things system for cloud-connected data exchange. The project implements one ESP32 as a **transmitter** (TX) that periodically sends 5 string-based values to a ThingSpeak channel, and another ESP32 as a **receiver** (RX) that fetches this data, validates network and peripheral status, and displays results on both the Serial Monitor and a 128x64 OLED screen.<br><br>
-> This project was developed as part of a practical exercise during the **AICTE SAKEC IDEALAB Summer Internship Program**, reflecting core concepts of embedded systems and IoT communication.
+> This project was developed as part of a practical exercise during the **AICTE SAKEC IDEALAB Summer Internship Program 2025**, reflecting core concepts of embedded systems and IoT communication.
 
 ---
 
