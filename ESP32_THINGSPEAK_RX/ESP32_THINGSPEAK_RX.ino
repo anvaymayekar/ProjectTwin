@@ -1,7 +1,6 @@
 #include <WiFi.h>
 #include <ThingSpeak.h>
 #include <Adafruit_SSD1306.h>
-#include <ArduinoJson.h>
 
 // PROGRAM FOR RECEIVER ESP32 MODULE - RX
 // author: @anvaymayekar
