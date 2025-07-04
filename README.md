@@ -1,4 +1,4 @@
-# Project Twin: ESP32 TX/RX IoT System with OLED and ThingSpeak Integration
+# ProjectTwin: ESP32 TX/RX IoT System with OLED and ThingSpeak Integration
 <br>
 
 A complete dual-node ESP32-based Internet of Things system for cloud-connected data exchange. The project implements one ESP32 as a **transmitter** (TX) that periodically sends 5 string-based values to a ThingSpeak channel, and another ESP32 as a **receiver** (RX) that fetches this data, validates network and peripheral status, and displays results on both the Serial Monitor and a 128x64 OLED screen.<br><br>
