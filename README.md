@@ -1,8 +1,6 @@
 
 # 🚀 ProjectTwin: ESP32 TX/RX IoT System with OLED and ThingSpeak Integration
 
-<br>
-
 A complete dual-node ESP32-based 🌐 Internet of Things system for cloud-connected data exchange. The project implements one ESP32 as a **transmitter** (TX) that periodically sends 5 string-based values to a ThingSpeak channel, and another ESP32 as a **receiver** (RX) that fetches this data, validates network and peripheral status, and displays results on both the Serial Monitor and a 128x64 OLED screen. <br>
 
 > 🔧 This project was developed as part of a practical exercise during the **AICTE SAKEC IDEALAB Summer Internship Program 2025**, reflecting core concepts of embedded systems and IoT communication.
@@ -12,9 +10,13 @@ A complete dual-node ESP32-based 🌐 Internet of Things system for cloud-connec
 ## 📌 Note
 
 > ⚠️ This implementation uses only the official `ThingSpeak` library and `WiFi.h`. No `ArduinoJson` or external data parsing is used.
+> >
 > 🖥️ Ensure the receiver OLED is properly connected via I2C (typically SDA to GPIO 21, SCL to GPIO 22 on ESP32).
+>
 > 🕒 A 15-second delay is maintained as per ThingSpeak rate limits.
+>
 > 💡 Internal blue LED on each ESP32 acts as a WiFi connection indicator.
+>
 > 🔔 On the RX node, a buzzer on GPIO 4 gives a 1s beep each time new data is received.
 
 ---
@@ -59,11 +61,13 @@ A complete dual-node ESP32-based 🌐 Internet of Things system for cloud-connec
 
 ## 🛠️ Tools & Technologies
 
-![ESP32](https://img.shields.io/badge/ESP32-323232.svg?style=for-the-badge\&logo=espressif\&logoColor=white)
-![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00979D.svg?style=for-the-badge\&logo=arduino\&logoColor=white)
-![ThingSpeak](https://img.shields.io/badge/ThingSpeak-003366.svg?style=for-the-badge\&logo=mathworks\&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-MCU-323232.svg?style=for-the-badge\&logo=espressif\&logoColor=white)
+![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-Programming-00979D.svg?style=for-the-badge\&logo=arduino\&logoColor=white)
+![C++](https://img.shields.io/badge/C++-Firmware-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)
+![ThingSpeak](https://img.shields.io/badge/ThingSpeak-Data%20Platform-003366?style=for-the-badge&logo=mathworks&logoColor=white)
 ![OLED 128x64](https://img.shields.io/badge/OLED-128x64-blue?style=for-the-badge)
-![Adafruit](https://img.shields.io/badge/Adafruit-Supported-blue?style=for-the-badge\&logo=adafruit\&logoColor=white)
+![Adafruit SSD1306](https://img.shields.io/badge/Adafruit_SSD1306-Display-blue?style=for-the-badge\&logo=adafruit\&logoColor=white)
+![WiFi](https://img.shields.io/badge/WiFi-Connectivity-29ABE2?style=for-the-badge\&logo=wifi\&logoColor=white)
 
 ---
 
