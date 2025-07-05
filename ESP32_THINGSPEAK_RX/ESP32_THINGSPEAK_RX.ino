@@ -21,6 +21,8 @@ const char* password = "YOUR_PASSWORD";
 const char* read_api = "YOUR_API_KEY"; // (eg: KFXY0T9XExxxxxxx)
 unsigned long ch_no = 9999999; // numeric (eg: 299xxxx)
 
+// Credentials for testing only — use secure methods (e.g., header file) in production.
+
 // GPIO pins
 const int LED = 2;
 const int BUZZER = 4;
